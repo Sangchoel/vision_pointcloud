@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>visionproject</name>
+  <version>0.0.0</version>
+  <description>The visionproject package</description>
+  <maintainer email="your-email@example.com">Your Name</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Build and Build Export Dependencies -->
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>image_transport</build_depend>
+  <build_depend>pcl_ros</build_depend>
+  <build_depend>pcl_conversions</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>opencv</build_depend> <!-- Assuming OpenCV is required at build time -->
+  <build_depend>image_geometry</build_depend>
+
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <build_export_depend>cv_bridge</build_export_depend>
+  <build_export_depend>image_transport</build_export_depend>
+  <build_export_depend>pcl_ros</build_export_depend>
+  <build_export_depend>pcl_conversions</build_export_depend>
+  <build_export_depend>sensor_msgs</build_export_depend>
+  <build_export_depend>opencv</build_export_depend>
+  <build_export_depend>image_geometry</build_export_depend>
+
+  <!-- Execution Dependencies -->
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>image_transport</exec_depend>
+  <exec_depend>pcl_ros</exec_depend>
+  <exec_depend>pcl_conversions</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>opencv</exec_depend> <!-- Ensuring OpenCV is also an exec dependency -->
+  <exec_depend>image_geometry</exec_depend>
+</package>
+
